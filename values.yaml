@@ -1,0 +1,7 @@
+myStr: abc
+myInt: 123
+myObj:
+  valA: Value A
+  myArray:
+  - 42
+  - 23

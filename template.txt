@@ -1,0 +1,8 @@
+My test string: {{ .myStr }}
+
+My test integer incremented by 1: {{ add .myInt 1 }}
+
+My test array:
+{{ range .myObj.myArray -}}
+* {{ . }}
+{{ end }}
